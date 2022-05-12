@@ -1,0 +1,661 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Comfortaa:wght@500&family=Dancing+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+.navbarsticky{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.register{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+    align-content: center;
+    align-items: center;
+  width: 50%;
+  padding:2rem;
+  margin:auto;
+}
+/* home page css */
+.image-container {
+  background-image: url("https://www.boatandco.nl/upload/heading/gym-and-wellness-1600x650.jpg"); /* The image used - important! */
+  background-size: cover;
+  position: relative; /* Needed to position the cutout text in the middle of the image */
+  height: 300px; /* Some height */
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw; /* Responsive font size */
+  font-weight: bold;
+
+  width: 55%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 50%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
+}
+.middle-card{    display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  
+}
+.cards{ align-items: center;
+  align-content: center;
+  border-radius: 0.5rem;
+  margin:0.5rem;
+font-family: 'Comfortaa', cursive;
+}
+
+
+
+  .middlepart{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     padding:2rem;
+  color: aliceblue;
+border-radius: 3px;
+font-size:large;}
+.offerlink{  color: aliceblue;
+  font-size:large;}
+.diduknow{font-family: Comfortaa;
+  padding-left:5rem;
+  padding-right:5rem;
+text-align:center;
+  font-size:17px;
+ font-display: justify;
+}
+
+
+.lowerimg{  
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+  .lowimg{
+    margin-bottom:3rem;
+    
+  }
+  .lowercols{     display: flex;
+    /* flex-direction: row;
+    justify-content: space-between;
+   
+    align-content: flex-start;
+     justify-content: flex-end; */
+     font-family: 'Kalam', cursive;
+     font-size: x-large;
+}
+
+
+ .lowerhalfcols{
+   display: flex;
+
+  text-align:justify;
+  margin:1rem;
+  padding: 1rem;
+  justify-content: flex-end;
+  }
+  .lowerhalfcolsTwo {  display: flex;
+
+    text-align:justify;
+    margin:1rem;
+    padding: 1rem;
+    justify-content: flex-end;}
+    .lowerSectionImgTwo
+  {width: 100%;}
+  .lowerSectionImg
+  {width: 50%;
+    margin: 0px 10px;}
+.middledescription {
+  background-image: url('https://bcbstwelltuned.com/wp-content/uploads/2017/05/BlogIllustration_PlayingCards.jpg');
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+  height: 100%;
+  width: 100%;
+margin-bottom:3rem;
+padding:4rem;
+font-size:large;
+font-family: 'Comfortaa', cursive;
+font-weight: bold;
+color:black;
+}
+
+.footer{display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Comfortaa', cursive;
+  color:white;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .socialmedia{display: flex;
+    justify-content: space-between;}
+  .media{display: flex
+  }
+
+/* courses component css */
+
+  .course{display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+    background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+
+.allcourses{   background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   }
+.introcourses{
+  font-family: 'Comfortaa', cursive;
+
+  font-size:x-large;padding-top: 2rem;
+padding-left: 2rem;
+padding-right: 2rem;
+
+}
+.details{     display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem; padding-bottom: 2rem;
+padding-left:10rem; padding-right:10rem;
+}
+.detailscard{  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem; padding-bottom: 2rem;
+padding-left:2rem; padding-right:2rem;  
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); }
+
+.modalcalendar{display:flex;}
+/* product selling component css */
+  .product{     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+   
+
+  }
+  .product-title{ border: solid;
+    background-color: white;
+    border-color: #18133f;
+    border-radius:2px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 1rem;
+    margin: 2rem;
+  }
+  .homeproducts{display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  border: solid;
+border-radius: 2rem;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;}
+ 
+  /* offers component css */
+.offer{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  
+}
+.introffer{ font-family: 'Kalam', cursive;}
+.halfoffer{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  border:solid 1px #373B44;
+  background: whitesmoke;
+  padding: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background: #74ebd5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+ 
+  .image-offer{
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    position: relative; /* Needed to position the cutout text in the middle of the image */
+    height: 100px; /* Some height */
+  }
+
+  .text-offer {
+    
+    color: white;
+    font-size: 3vw; /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto; /* Center the text container */
+    width: 50%;
+    text-align: center; /* Center text */
+    position: absolute; /* Position text */
+    top: 50%; /* Position text in the middle */
+    left: 50%; /* Position text in the middle */
+    transform: translate(-50%, -50%); /* Position text in the middle */
+    mix-blend-mode: screen; /* This makes the cutout text possible */
+  }
+/* clubs component css */
+
+  .footerclubs{
+  background-image: url('https://ekara.ip-label.com/wp-content/uploads/2021/02/International-1.png');}
+
+
+  .clubs{
+        
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+      
+      .clubhead{
+        font-family: 'Comfortaa', cursive;
+  color:aliceblue;
+  font-size:x-large;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */}
+
+.clubh1{font-family: 'Comfortaa', cursive;
+  color:aliceblue;
+}
+
+      .clubimg{padding:2rem;}
+
+      .carousel.slide{height:400px; width:600px;}
+      .carousel-inner{height:400px;  width:600px;}
+      .carousel-item{height:400px;  width:600px;}
+      .carousel{
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;}
+
+      .icon{
+        flex: 1 0 10px;
+        background: #115dd8;
+        color: #fff;
+        padding: 10px 10px;
+        transition: 200ms;
+      }
+
+.footerlogo{border-style: solid;
+border-color: aliceblue;}
+      .contact{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('https://www.wallpapertip.com/wmimgs/8-89429_blue-background-for-phone.jpg');
+       -webkit-animation: backgroundScroll 20s linear infinite;
+        animation: backgroundScroll 20s linear infinite;
+        padding: 5rem;
+        
+        }
+        
+        @-webkit-keyframes backgroundScroll {
+        from {background-position: 0 0;}
+        to {background-position: -400px 0;}
+        }
+                
+        @keyframes backgroundScroll {
+        from {background-position: 0 0;}
+        to {background-position: -400px 0;}
+        }
+      .container{ 
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;}
+        .granola{ padding-top: 3rem;
+          font-family: 'Amatic SC', cursive;
+        color:#1199d8;
+      font-size:40px;
+    font-weight: bold;}
+
+/* profile component CSS 
+member  */
+.member-profile{
+  display: flex;
+  flex-direction: column;
+  
+}
+.member-card{    display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+padding-left:1rem;
+padding-right:1rem;
+}
+.membercards{
+  align-items: center;
+  align-content: center;
+  border-radius: 0.5rem;
+font-family: 'Comfortaa', cursive;
+background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.member-card-side{display: flex;
+  flex-direction: column;
+margin:1rem;
+padding-bottom:2rem
+}
+  .member-middle{display:flex;
+  }
+    .modal{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+    }
+
+    .bmi{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding:2rem;
+      margin:auto;
+      background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin:0.5rem
+    }
+  /* admin page */
+    .admin-cards{display: flex;
+      flex-direction: column;
+    margin:1rem;
+    padding-bottom:2rem;
+    align-content: center;
+  border-radius: 0.5rem;
+font-family: 'Comfortaa', cursive;
+color:#071b3f;
+background: #B2FEFA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ED2F7, #B2FEFA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin:0.5rem}
+
+.admin-middle{ display: flex;
+  flex-direction: row;
+  justify-content: space-around;}
+  .adminlogo{width: 100px;
+  border-radius: 100px;}
+/*   COACH PROFILE CSS */
+
+  table, th, td {
+    border: 1px solid;
+    align-items: center;
+    align-content: center;
+  }
+ .tableHead{ align-content: center;}
+  
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  align-items: center;
+  align-content: center;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width:200px;
+  color: white;
+  align-items: center;
+  align-content: center;
+}
+
+.coachimages{ display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+border-radius: 2em;}
+
+.listOfIntertedPersons{display: flex;
+  width:50%;
+}
+.list-offer-persons{display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media  screen and (max-width: 600px) {
+  .App{ width: 90%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.lowercols {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  justify-content: flex-end;
+  font-family: 'Kalam', cursive;
+  font-size: small;
+  flex-wrap: nowrap;
+}
+.middlepart {
+  align-content: center;
+  background: #373B44;
+  background: linear-gradient(to right, #4286f4, #373B44);
+  padding: 2rem;
+  color: aliceblue;
+  border-radius: 3px;
+  font-size: large;
+}
+.text {
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.middle-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-around;
+  margin: 2rem;
+}
+.lowerhalfcols {width: 90%;
+  margin: auto;}}
+
+
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media screen and (min-width: 600px)  {
+  .App{ width: 90%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+   
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.lowercols{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Kalam', cursive;
+  font-size: small;
+ 
+}
+.middlepart{
+  align-content: center;
+  background: #373B44;
+  background: linear-gradient(to right, #4286f4, #373B44);
+  padding: 2rem;
+  color: aliceblue;
+  border-radius: 3px;
+  font-size: large;
+}
+.text{
+  background-color: white;
+  color: black;
+  font-size: 10vw;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+}
+.middle-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-around;
+  margin: 2rem;
+}}
+/* .lowerhalfcols{width: 90%;
+  margin: auto;}}
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media  screen and (max-width: 768px)  {
+  .App{ width: 90%;
+    margin: auto;
+/* }} */ 
+/* @media screen and (min-width: 780px) and (max-width: 979px){
+  .App{ width: 90%;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    font-size:50%;
+    flex-flow: row wrap;
+    margin: 0px 10px;
+}
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.lowercols{
+display: flex;
+flex-direction: column;
+font-family: 'Kalam', cursive;
+font-size: small;
+}
+.middlepart{
+align-content: center;
+background: #373B44;
+background: linear-gradient(to right, #4286f4, #373B44);
+padding: 2rem;
+color: aliceblue;
+border-radius: 3px;
+font-size: large;
+}
+.text{
+background-color: white;
+color: black;
+font-size: 10vw;
+font-weight: bold;
+width: 80%;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+mix-blend-mode: screen;
+}
+.middle-card{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-content: space-around;
+margin: 2rem;
+}} */
